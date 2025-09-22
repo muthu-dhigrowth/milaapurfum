@@ -50,7 +50,7 @@ const ContactMap = () => {
 
             <button
               type="submit"
-              className="w-full md:w-1/4 bg-transparent border border-primary text-primary py-2 px-4 rounded-full hover:bg-primary-navy transition-all"
+              className="w-full md:w-1/3 lg:w-1/4 bg-transparent border border-primary text-primary py-2 px-4 rounded-full hover:bg-primary-navy transition-all"
             >
               Submit
             </button>

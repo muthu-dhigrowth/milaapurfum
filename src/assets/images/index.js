@@ -1,4 +1,5 @@
 // import heroBanner from "../../assets/images/Bannerimg.webp";
+import Logo from "../../assets/images/mila_logo.png";
 import Bannervideo from "../../assets/Video/Banner.mp4";
 import Homepagevideo from "../../assets/Video/Homepagevideo.mp4";
 import Millaparfumimag1 from "../../assets/images/Millaparufumimg1.png";
@@ -13,6 +14,7 @@ import Millaparfumhoverimg3 from "../../assets/images/Millaparufumhoverimg3.jpg"
 
 export {
 
+  Logo,
   Bannervideo,
   Homepagevideo,
   Millaparfumimag1,

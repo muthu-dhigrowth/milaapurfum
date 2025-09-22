@@ -30,7 +30,7 @@ const InstagramGallery = () => {
           }
         `}
       </style>
-      <section className="relative overflow-hidden bg-gradient-to-b from-[#fec2ce] to-[#ff8a63] py-[120px]">
+      <section className="relative overflow-hidden bg-gradient-to-b from-[#fec2ce] to-[#ff9f90] py-[120px]">
         <div className="flex animate-marquee will-change-transform">
           {duplicatedImages.map((src, index) => (
             <a

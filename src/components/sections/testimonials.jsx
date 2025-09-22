@@ -38,7 +38,7 @@ export default function Testimonials() {
   const activeTestimonial = testimonialsData[activeTab];
 
   return (
-    <section className="py-[120px] bg-[#ff9f90]">
+    <section className="py-[120px] bg-gradient-to-b from-[#ff9f90] to-[#ff8a63]">
       <div className="container">
         {/* Testimonial Text */}
         <div className="flex flex-col items-center text-center">

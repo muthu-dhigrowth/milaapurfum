@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { Instagram, Linkedin, Twitter, AtSign } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Input } from '../ui/input';
+import { Logo } from "../../assets/images/index.js";
 
 const pagesLinks = [
   { name: 'Home', to: '/' },
@@ -71,8 +72,8 @@ export default function Footer() {
           <div className="flex flex-col items-center lg:px-4">
             <Link href="/" className="mb-6">
               <img
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9862c2de-8284-4747-b6b9-fe39b9a80b96-soapnic-wbs-webflow-io/assets/svgs/6572a0e92354ed5d69166fcd_soapanic-2.svg?"
-                alt="Soapnic Logo"
+                src={Logo}
+                alt="Milaa Parfum Logo"
                 width={350}
                 height={100}
                 className="h-auto"
@@ -96,8 +97,8 @@ export default function Footer() {
 
           <div>
             <h3 className="font-display text-3xl text-primary font-medium mb-6 font-Bitter">Contact</h3>
-            <a href="mailto:example@gmail.com" className="block mb-6 text-base text-primary hover:text-white transition-colors duration-300 font-Lato">
-              example@gmail.com
+            <a href="mailto:contact@milaaparfum.com" className="block mb-6 text-base text-primary hover:text-white transition-colors duration-300 font-Lato">
+              contact@milaaparfum.com
             </a>
             <div className="flex justify-center md:justify-start space-x-5 font-Lato">
               {socialLinks.map((social) => (

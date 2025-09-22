@@ -3,8 +3,8 @@ const contactInfo = [
       iconUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d7384c8d-d83a-4f05-b29f-478e1409cb80-soapnic-wbs-webflow-io/assets/svgs/656ade2ca7d01fc94a383945_icon-26-5.svg?",
       alt: "Email Icon",
       title: "Support",
-      content: "example@gmail.com",
-      href: "mailto:example@gmail.com",
+      content: "contact@milaaparfum.com",
+      href: "mailto:contact@milaaparfum.com",
       isLink: true,
       TitleComponent: 'h2'
     },
@@ -12,7 +12,7 @@ const contactInfo = [
       iconUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d7384c8d-d83a-4f05-b29f-478e1409cb80-soapnic-wbs-webflow-io/assets/svgs/656ade2cf6e786000e378e8f_icon-25-6.svg?",
       alt: "Location Icon",
       title: "Address",
-      content: "Chicago HQ Estica Cop.\nMacomb, MI 48042",
+      content: " 601, Tower-1, Godrej Urban Park, Chandivali, Powai, Mumbai-400072",
       isLink: false,
       TitleComponent: 'h2'
     },
@@ -20,8 +20,8 @@ const contactInfo = [
       iconUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d7384c8d-d83a-4f05-b29f-478e1409cb80-soapnic-wbs-webflow-io/assets/svgs/656ade2ce9e7fe82b083ffb3_icon-27-7.svg?",
       alt: "Contact Icon",
       title: "Contact Us",
-      content: "+44 (0) 161808123",
-      href: "tel:+44(0)161808123",
+      content: "+91 76669 28596",
+      href: "tel:+917666928596",
       isLink: true,
       TitleComponent: 'h3'
     }

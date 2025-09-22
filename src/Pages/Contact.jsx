@@ -14,10 +14,11 @@ const Contact = () => {
       <main>
     <ContactHero/>
     <div className="relative">
-      <ContactMap/>
-      <div className="absolute top-[-250px] left-0 w-full z-10">
+    <div className="lg:absolute lg:top-[-250px] lg:left-0 lg:w-full lg:z-10">
         <ContactCards/>
       </div>
+      <ContactMap/>
+     
     </div>
       </main>
       

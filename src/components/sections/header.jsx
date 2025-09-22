@@ -20,6 +20,7 @@ import {
   SheetTrigger,
   SheetClose,
 } from "../ui/sheet";
+import { Logo } from "../../assets/images/index.js";
 
 const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -114,7 +115,7 @@ const Header = () => {
             <div className="flex justify-center">
               <Link to="/" aria-label="home">
                 <img
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9862c2de-8284-4747-b6b9-fe39b9a80b96-soapnic-wbs-webflow-io/assets/svgs/6572a0e92354ed5d69166fcd_soapanic-2.svg?"
+                  src={Logo}
                   alt="Soapnic logo"
                   width={150}
                   height={40}
